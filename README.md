@@ -55,3 +55,9 @@ Schedule this for tomorrow at 9 AM on my LinkedIn page: Our launch webinar start
 How many posts do I have lined up for tomorrow?
 What analytics are available for my Instagram account this month?
 Check the status of my latest scheduled Postly post.
+
+## Documentation
+
+- [ChatGPT MCP Demo](docs/chatgpt-mcp-demo.md)
+- [Available Tools](docs/tools.md)
+- [Security & Scopes](docs/security-and-scopes.md)
