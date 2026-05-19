@@ -50,3 +50,8 @@ Some write actions may publish content publicly or send messages through connect
 
 ```txt
 Show me my Postly organizations and workspaces.
+Publish this to my Telegram channel: Launch update: our new scheduler is live.
+Schedule this for tomorrow at 9 AM on my LinkedIn page: Our launch webinar starts soon.
+How many posts do I have lined up for tomorrow?
+What analytics are available for my Instagram account this month?
+Check the status of my latest scheduled Postly post.
