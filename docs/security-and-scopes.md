@@ -36,6 +36,26 @@ Some tools can affect public or third-party systems.
 
 ## Credential handling
 
-Users should connect Postly through the secure connection flow.
+Users should connect Postly through the secure connection flow when the client
+supports it.
 
-API keys or secrets should not be pasted into normal chat prompts or passed through tool arguments.
+API keys or secrets should not be pasted into normal chat prompts or passed
+through tool arguments.
+
+For manual clients, prefer:
+
+```txt
+Authorization: Bearer <postly-api-key>
+```
+
+Some clients do not support custom headers or do not show an OAuth prompt. In
+those cases, Postly also supports API-key URL fallbacks such as:
+
+```txt
+https://mcp.postly.ai/claude/<postly-api-key>
+https://mcp.postly.ai/agents/<postly-api-key>
+```
+
+Only use URL fallbacks inside trusted MCP connector configuration screens. If a
+client supports environment variables or secret interpolation, use that instead
+of storing the key directly in a config file.
