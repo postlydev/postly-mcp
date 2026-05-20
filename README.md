@@ -1,6 +1,6 @@
 # Postly MCP
 
-Official MCP server for Postly — the AI social media scheduler for ChatGPT and AI agents.
+Official MCP server for Postly, the AI social media scheduler for ChatGPT and AI agents.
 
 Postly helps you create, schedule, publish, and manage social media and email campaigns directly from ChatGPT. Connect your accounts, upload media, draft content, schedule campaigns, monitor publishing activity, and track analytics from one workflow.
 
@@ -27,7 +27,8 @@ https://www.youtube.com/watch?v=2wyovmoUEhU
 - Workspace and organization management
 - Social account discovery
 - Analytics and performance reporting
-- MCP integration for ChatGPT, Claude, Cursor, and AI agents
+- MCP integration for ChatGPT, Claude, Gemini CLI, Windsurf, OpenClaw,
+  OpenRouter-compatible gateways, and other MCP clients
 
 ---
 
@@ -104,6 +105,46 @@ These tools create or modify Postly state.
 - Delete posts
 
 Some write actions may publish content publicly or send messages through connected providers. Postly validates content and may require confirmation before sensitive actions.
+
+---
+
+## Quick Start
+
+1. Create a Postly API key in Postly.
+2. Choose the MCP endpoint for your AI client.
+3. Connect the client using OAuth, an `Authorization` header, or the API-key URL fallback.
+4. Ask the client to list your Postly workspaces before publishing.
+
+### Get a Postly API Key
+
+In Postly, open:
+
+```txt
+API & MCP -> API Access -> Create API key
+```
+
+Keep the key private. Do not paste it into normal chat messages. Only paste it
+into a connector authorization screen, a trusted local client config, or an
+environment variable.
+
+### Which URL Should I Use?
+
+| Client | Recommended URL | Auth method |
+| --- | --- | --- |
+| ChatGPT custom app / official app | `https://mcp.postly.ai/sse` | OAuth page asks for your Postly API key |
+| Claude web custom connector | `https://mcp.postly.ai/claude` | OAuth page asks for your Postly API key |
+| Claude manual fallback | `https://mcp.postly.ai/claude/<postly-api-key>` | API key in URL |
+| Gemini CLI | `https://mcp.postly.ai/gemini` | `Authorization: Bearer <postly-api-key>` |
+| Windsurf | `https://mcp.postly.ai/windsurf` | `Authorization: Bearer <postly-api-key>` |
+| OpenClaw | `https://mcp.postly.ai/openclaw` | `Authorization: Bearer <postly-api-key>` |
+| OpenRouter / multi-model gateways | `https://mcp.postly.ai/openrouter` | `Authorization: Bearer <postly-api-key>` |
+| Generic MCP clients | `https://mcp.postly.ai/agents` | `Authorization: Bearer <postly-api-key>` |
+
+Use the header form when your client supports custom headers. Use the URL
+fallback only when a client cannot send custom headers or does not show an OAuth
+prompt.
+
+Full setup instructions are in [Manual Connections](docs/manual-connections.md).
 
 ---
 
@@ -192,15 +233,18 @@ Sensitive or destructive actions should always be confirmed before execution.
 
 ## Credential Handling
 
-Users should authenticate using the secure Postly connection flow.
+Users should authenticate using the secure Postly connection flow where
+available. For manual clients, use an `Authorization` header or the documented
+API-key URL fallback.
 
-Never paste API keys or credentials directly into prompts.
+Never paste API keys or credentials directly into normal prompts.
 
 ---
 
 ## Documentation
 
 - [ChatGPT MCP Demo](docs/chatgpt-mcp-demo.md)
+- [Manual Connections](docs/manual-connections.md)
 - [Available Tools](docs/tools.md)
 - [Security & Scopes](docs/security-and-scopes.md)
 
@@ -229,7 +273,6 @@ Postly MCP can be used for:
 - [ ] Team collaboration features
 - [ ] Enhanced media workflows
 - [ ] Public npm package
-- [ ] Hosted MCP endpoint
 - [ ] OAuth improvements
 
 ---
