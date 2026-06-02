@@ -1,8 +1,20 @@
 # ChatGPT MCP Demo
 
-Demo video:
+## Demo
 
-https://www.youtube.com/watch?v=2wyovmoUEhU
+### How to Connect Postly MCP to ChatGPT (Step-by-Step Setup Guide)
+
+[![How to Connect Postly MCP to ChatGPT](https://img.youtube.com/vi/z7PCv0VbuHs/maxresdefault.jpg)](https://www.youtube.com/watch?v=z7PCv0VbuHs)
+
+Video:
+https://www.youtube.com/watch?v=z7PCv0VbuHs
+
+### Publish to LinkedIn with ChatGPT + Postly MCP (Complete Setup & Demo)
+
+[![Publish to LinkedIn with ChatGPT + Postly MCP](https://img.youtube.com/vi/3FY9NAHiiHw/maxresdefault.jpg)](https://www.youtube.com/watch?v=3FY9NAHiiHw)
+
+Video:
+https://www.youtube.com/watch?v=3FY9NAHiiHw
 
 ## Demo flow
 
