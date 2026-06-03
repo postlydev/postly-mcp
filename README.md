@@ -17,10 +17,11 @@ https://www.youtube.com/watch?v=z7PCv0VbuHs
 
 ### Publish to LinkedIn with ChatGPT + Postly MCP (Complete Setup & Demo)
 
-[![Publish to LinkedIn with ChatGPT + Postly MCP](https://img.youtube.com/vi/3FY9NAHiiHw/maxresdefault.jpg)](https://www.youtube.com/watch?v=3FY9NAHiiHw)
+[![Publish to LinkedIn with ChatGPT + Postly MCP](https://img.youtube.com/vi/iJuNYwsQKsE/maxresdefault.jpg)](https://www.youtube.com/watch?v=iJuNYwsQKsE)
 
 Video:
-https://www.youtube.com/watch?v=3FY9NAHiiHw
+https://www.youtube.com/watch?v=iJuNYwsQKsE
+
 
 
 ---
