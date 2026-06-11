@@ -10,17 +10,17 @@ Postly helps you create, schedule, publish, and manage social media and email ca
 
 ### How to Connect Postly MCP to ChatGPT (Step-by-Step Setup Guide)
 
-[![How to Connect Postly MCP to ChatGPT](https://img.youtube.com/vi/z7PCv0VbuHs/maxresdefault.jpg)](https://www.youtube.com/watch?v=z7PCv0VbuHs)
+[![How to Connect Postly MCP to ChatGPT](https://img.youtube.com/vi/pqVyBYYhdZw/maxresdefault.jpg)](https://www.youtube.com/watch?v=pqVyBYYhdZw)
 
 Video:
-https://www.youtube.com/watch?v=z7PCv0VbuHs
+https://www.youtube.com/watch?v=pqVyBYYhdZw
 
 ### Publish to LinkedIn with ChatGPT + Postly MCP (Complete Setup & Demo)
 
-[![Publish to LinkedIn with ChatGPT + Postly MCP](https://img.youtube.com/vi/iJuNYwsQKsE/maxresdefault.jpg)](https://www.youtube.com/watch?v=iJuNYwsQKsE)
+[![Publish to LinkedIn with ChatGPT + Postly MCP](https://img.youtube.com/vi/i084A-fpcNo/maxresdefault.jpg)](https://www.youtube.com/watch?v=i084A-fpcNo)
 
 Video:
-https://www.youtube.com/watch?v=iJuNYwsQKsE
+https://www.youtube.com/watch?v=i084A-fpcNo
 
 
 
