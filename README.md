@@ -57,7 +57,7 @@ https://www.youtube.com/watch?v=i084A-fpcNo
 - Update existing posts
 - Delete draft or scheduled posts
 - Validate posts before publishing
-- Upload and attach media
+- Generate and publish media directly
 
 ### Analytics & Monitoring
 
