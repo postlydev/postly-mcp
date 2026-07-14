@@ -1,4 +1,3 @@
-````md
 # Postly MCP
 
 Official MCP server for Postly, the AI social media scheduler for ChatGPT and AI agents.
@@ -409,5 +408,4 @@ Actively under development.
 
 MIT
 
-```
 ```
